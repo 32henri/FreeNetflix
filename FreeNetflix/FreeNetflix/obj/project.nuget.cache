@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Iqoo8eEf4jrDIVLHZOfp6bSK4Ae6tJvuNliaAE6jtsw5DAqJOSfhn/rRn6UynJ2pRmNRAaU0xHLal8/bQe1ung==",
+  "dgSpecHash": "JGRHolFUcA+A2q05cUpwf6iAqXM67j/ROiJDjGOrs12rvWYluiZX7ctmtHDS39tCrvk21/h47Y00vmuyBb58nA==",
   "success": true,
   "projectFilePath": "C:\\Users\\opilane\\source\\repos\\Uus kaust\\FreeNetflix\\FreeNetflix\\FreeNetflix\\FreeNetflix.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\opilane\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
