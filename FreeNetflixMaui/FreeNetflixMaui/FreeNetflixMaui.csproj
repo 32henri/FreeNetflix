@@ -65,7 +65,6 @@
 	  <Folder Include="Controls\" />
 	  <Folder Include="Models\" />
 	  <Folder Include="ViewModels\" />
-	  <Folder Include="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>
