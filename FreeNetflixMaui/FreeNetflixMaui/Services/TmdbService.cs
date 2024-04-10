@@ -47,6 +47,7 @@ namespace FreeNetflixMaui.Services
             await GetMediasAsync(TmdbUrls.Action);
 
 
+
         public async Task<IEnumerable<Media>> GetMediasAsync(string url)
         {
             var trendingMoviesCollection = await HttpClient.GetFromJsonAsync<Movie>($"{url}&api_key={ApiKey}");
@@ -56,7 +57,7 @@ namespace FreeNetflixMaui.Services
 
 
     }
-
+//afewe
     public static class TmdbUrls
     {
         public const string Trending = "3/trending/all/week?language=en-US";
