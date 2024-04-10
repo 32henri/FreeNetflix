@@ -6,9 +6,28 @@
     xmlns:pages="clr-namespace:FreeNetflixMaui.Pages"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate pages:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            Icon="hometab"
+            ContentTemplate="{DataTemplate pages:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Title="Games"
+            Icon="game"
+            ContentTemplate="{DataTemplate pages:MainPage}"
+            Route="MainPage1" />
+        <ShellContent
+            Title="New &amp; Hot"
+            Icon="brand_netflix"
+            ContentTemplate="{DataTemplate pages:MainPage}"
+            Route="MainPage2" />
+        <ShellContent
+            Title="Downloads"
+            Icon="download"
+            ContentTemplate="{DataTemplate pages:MainPage}"
+            Route="MainPage3" />
+    </TabBar>
+
 
 </Shell>

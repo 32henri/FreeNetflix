@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qz7X05LLX43W8/4C87BZnQoMlEhmUuQ/ic5zCHYxFwo6DVahvGOKYYptN8VBsOJZbFUsqOHPc05bAuLxwdlPrw==",
+  "dgSpecHash": "X7ou+UgK0RgKHwT3ZR9KPrOEYV/RfOKj+C++gX4Kl9PKW5fGq0gz+m+vZ07CG+CPhf6TggkUOFi5GwKmX8kwiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\FreeNetflix\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",

@@ -28178,11 +28178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\FreeNetflix\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
       "projectName": "FreeNetflixMaui",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\FreeNetflix\\FreeNetflixMaui\\FreeNetflixMaui\\FreeNetflixMaui.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\FreeNetflixMaui\\FreeNetflixMaui\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\FreeNetflix\\FreeNetflixMaui\\FreeNetflixMaui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
