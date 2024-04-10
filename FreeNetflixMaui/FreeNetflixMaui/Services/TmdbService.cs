@@ -38,17 +38,16 @@ namespace FreeNetflixMaui.Services
         }
 
         public async Task<IEnumerable<Media>> GetTrendingAsync() =>
-            await GetMediasAsync(TmdbUrls.Trending);
+                    await GetMediasAsync(TmdbUrls.Trending);
+        public async Task<IEnumerable<Media>> GetTopRatedAsync() =>
+            await GetMediasAsync(TmdbUrls.TopRated);
+        public async Task<IEnumerable<Media>> GetNetflixOriginalAsync() =>
+            await GetMediasAsync(TmdbUrls.NetflixOriginals);
+        public async Task<IEnumerable<Media>> GetActionAsync() =>
+            await GetMediasAsync(TmdbUrls.Action);
 
-        public async Task<MovieDetail> GetMediaDetailsAsync(int id, string type = "movie") =>
-            await HttpClient.GetFromJsonAsync<MovieDetail>(
-                $"{TmdbUrls.GetMovieDetails(id, type)}&api_key={ApiKey}");
 
-        public async Task<IEnumerable<Media>> GetSimilarAsync(int id, string type = "movie") =>
-            await GetMediasAsync(
-                $"{TmdbUrls.GetSimilar(id, type)}&api_key={ApiKey}");
-
-        private async Task<IEnumerable<Media>> GetMediasAsync(string url)
+        public async Task<IEnumerable<Media>> GetMediasAsync(string url)
         {
             var trendingMoviesCollection = await HttpClient.GetFromJsonAsync<Movie>($"{url}&api_key={ApiKey}");
             return trendingMoviesCollection.results
