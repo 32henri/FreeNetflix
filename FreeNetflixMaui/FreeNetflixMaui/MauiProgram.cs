@@ -1,4 +1,7 @@
 ﻿using CommunityToolkit.Maui;
+using FreeNetflixMaui.Pages;
+using FreeNetflixMaui.Services;
+using FreeNetflixMaui.ViewModels;
 
 namespace FreeNetflixMaui;
 
@@ -16,6 +19,17 @@ public static class MauiProgram
 				fonts.AddFont("Poppins-Semibold.ttf", "PoppinsSemibold");
 			});
 
-		return builder.Build();
-	}
+#if DEBUG
+
+#endif
+
+        builder.Services.AddHttpClient(TmdbService.TmdbHttpClientName,
+            httpClient => httpClient.BaseAddress = new Uri("https://api.themoviedb.org"));
+
+        builder.Services.AddSingleton<TmdbService>();
+        builder.Services.AddSingleton<HomeViewModel>();
+        builder.Services.AddSingleton<MainPage>();
+
+        return builder.Build();
+    }
 }
